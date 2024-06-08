@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #303030;
+}
+
+.container{
+
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(230, 224, 224, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+ 
+}
+
+form{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+
+}
+
+input{
+  width: 10%;
+  margin-left: 10px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wei{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wei input{
+  margin-left: 28px;
+}
+.hei{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  gap: 10px;
+}
+
+.submit-btn{
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.reload-btn{
+  background-color: rgb(0, 255, 140);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
